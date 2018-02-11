@@ -1,0 +1,1 @@
+{"serviceName":"updateMyNikeName","serviceTitle":"Y更新我的昵称","serviceDesc":"更新我的昵称","needLogin":"Y","isLogin":"N","requestParams":[{"paramName":"nikeName","paramDesc":"昵称","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"}],"responseParams":[]}

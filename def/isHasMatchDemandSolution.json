@@ -1,0 +1,1 @@
+{"serviceName":"isHasMatchDemandSolution","serviceTitle":"Y是否有匹配需求的方案","serviceDesc":"","needLogin":"Y","isLogin":"N","requestParams":[],"responseParams":[{"paramName":"isHas","paramDesc":"是否有 1为有 0为无","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}]}

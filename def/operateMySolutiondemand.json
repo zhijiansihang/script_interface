@@ -1,0 +1,1 @@
+{"serviceName":"operateMySolutiondemand","serviceTitle":"Y方案已读需求","serviceDesc":"方案已读需求","needLogin":"Y","isLogin":"N","requestParams":[{"paramName":"id","paramDesc":"方案需求记录id","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}],"responseParams":[]}

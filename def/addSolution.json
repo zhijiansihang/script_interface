@@ -1,0 +1,1 @@
+{"serviceName":"addSolution","serviceTitle":"Y增加收藏","serviceDesc":"增加收藏","needLogin":"Y","isLogin":"N","requestParams":[{"paramName":"id","paramDesc":"收藏的id","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"type","paramDesc":"1:理财师(店铺)2:产品","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}],"responseParams":[]}

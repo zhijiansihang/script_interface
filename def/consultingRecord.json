@@ -1,0 +1,1 @@
+{"serviceName":"consultingRecord","serviceTitle":"Y点咨询记录","serviceDesc":"咨询记录","needLogin":"Y","isLogin":"N","requestParams":[{"paramName":"consultingUserid","paramDesc":"朋友的userid","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}],"responseParams":[]}
