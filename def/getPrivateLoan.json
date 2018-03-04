@@ -1,8 +1,8 @@
 
 {
-    "serviceName" : "financeLoanRecommend",
-    "serviceTitle" : "理财师标推荐",
-    "serviceDesc" : "理财师标推荐",
+    "serviceName" : "getPrivateLoan",
+    "serviceTitle" : "获取私募的产品",
+    "serviceDesc" : "",
     "needLogin" : "Y",
     "isLogin" : "N",
     "requestParams" : [
@@ -16,8 +16,8 @@
             }
         ,
             {
-                "paramName" : "financeUserid",
-                "paramDesc" : "理财师id",
+                "paramName" : "fundType",
+                "paramDesc" : "基金类型 1.本土；2.合资；3.外资；4.其他；空为全部",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -25,12 +25,21 @@
             }
         ,
             {
-                "paramName" : "pageSize",
-                "paramDesc" : "一页的条数",
+                "paramName" : "capitalType",
+                "paramDesc" : "1.天使基金；2.创业基金；3.成长基金；4.FOF基金；5.并购基金；6.政府引导基金；7.基础设施基金；8.房地产基金；9.其他 空为全部",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "10"
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "organizeForm",
+                "paramDesc" : "组织形式1.公司式；2.信托制；3.有限合伙制；4.虚拟式；5.组合式；6.契约式；7.其他； 空为全部",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
             }
         
         ],

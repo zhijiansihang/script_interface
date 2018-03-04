@@ -1,14 +1,14 @@
 
 {
-    "serviceName" : "financeLoanRecommend",
-    "serviceTitle" : "理财师标推荐",
-    "serviceDesc" : "理财师标推荐",
+    "serviceName" : "getPublicLoan",
+    "serviceTitle" : "获取公募产品列表",
+    "serviceDesc" : "",
     "needLogin" : "Y",
     "isLogin" : "N",
     "requestParams" : [
             {
                 "paramName" : "currentPage",
-                "paramDesc" : "第几页",
+                "paramDesc" : "当前页数",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -16,8 +16,8 @@
             }
         ,
             {
-                "paramName" : "financeUserid",
-                "paramDesc" : "理财师id",
+                "paramName" : "investmentDeadline",
+                "paramDesc" : "投资期限：空：全部、1：12个月以内、2：13~23个月:3：24个月、4：24个月以上",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -25,12 +25,39 @@
             }
         ,
             {
-                "paramName" : "pageSize",
-                "paramDesc" : "一页的条数",
+                "paramName" : "productType",
+                "paramDesc" : "公墓类型：产品类型：1.信托；2.资管；3.其他资产；必填",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "10"
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productDirection",
+                "paramDesc" : "（投资方向）产品方向：1.工商企业；2.金融市场；3.基础设施；4.房地产；5.资金池；6.其他； 空位全部",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "ratioType",
+                "paramDesc" : "大小配比:1.小额畅打；2.已配出小额；3.严格配比；4.全大额 传空为全部",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "servicingWay",
+                "paramDesc" : "付息方式:1.按月付息；2.按季付息；3.半年付息；4.按年付息；5.到期付息；6.其他 空为全部",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
             }
         
         ],
