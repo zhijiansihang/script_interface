@@ -1,0 +1,30 @@
+
+{
+    "serviceName" : "constantInformation",
+    "serviceTitle" : "常量信息",
+    "serviceDesc" : "",
+    "needLogin" : "N",
+    "isLogin" : "N",
+    "requestParams" : [
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "mobile",
+                "paramDesc" : "手机号",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "financeServicesDirection",
+                "paramDesc" : "理财师服务方向使用|隔开",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "基金|证券|保险|信托|私募|其他"
+            }
+        
+        ]
+}

@@ -1,0 +1,30 @@
+
+{
+    "serviceName" : "isRegisterJg",
+    "serviceTitle" : "是否注册极光",
+    "serviceDesc" : "",
+    "needLogin" : "N",
+    "isLogin" : "N",
+    "requestParams" : [
+            {
+                "paramName" : "userId",
+                "paramDesc" : "",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1111"
+            }
+        
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "result",
+                "paramDesc" : "1 Y   0 N",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ]
+}

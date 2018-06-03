@@ -7,6 +7,15 @@
     "isLogin" : "N",
     "requestParams" : [
             {
+                "paramName" : "capitalType",
+                "paramDesc" : "1.天使基金；2.创业基金；3.成长基金；4.FOF基金；5.并购基金；6.政府引导基金；7.基础设施基金；8.房地产基金；9.其他 空为全部",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
                 "paramName" : "currentPage",
                 "paramDesc" : "第几页",
                 "paramGroupName" : "",
@@ -25,8 +34,8 @@
             }
         ,
             {
-                "paramName" : "capitalType",
-                "paramDesc" : "1.天使基金；2.创业基金；3.成长基金；4.FOF基金；5.并购基金；6.政府引导基金；7.基础设施基金；8.房地产基金；9.其他 空为全部",
+                "paramName" : "organizeForm",
+                "paramDesc" : "组织形式1.公司式；2.信托制；3.有限合伙制；4.虚拟式；5.组合式；6.契约式；7.其他； 空为全部",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -34,12 +43,12 @@
             }
         ,
             {
-                "paramName" : "organizeForm",
-                "paramDesc" : "组织形式1.公司式；2.信托制；3.有限合伙制；4.虚拟式；5.组合式；6.契约式；7.其他； 空为全部",
+                "paramName" : "sort",
+                "paramDesc" : "0：综合排序   1：按预期收益  2：按投资期限  3：按起投金额",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "1"
+                "exampleValue" : "0"
             }
         
         ],
@@ -204,6 +213,15 @@
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
                 "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "fundType",
+                "paramDesc" : "基金类型",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
             }
         
         ]

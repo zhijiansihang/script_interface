@@ -1,0 +1,345 @@
+
+{
+    "serviceName" : "getLoanDetail",
+    "serviceTitle" : "获取标详情",
+    "serviceDesc" : "",
+    "needLogin" : "Y",
+    "isLogin" : "N",
+    "requestParams" : [
+            {
+                "paramName" : "loanId",
+                "paramDesc" : "标id",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1000"
+            }
+        
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "LoanId",
+                "paramDesc" : "标id",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "adaptationDeadline",
+                "paramDesc" : "续存期限（年）",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "amount",
+                "paramDesc" : "投资规模",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "beginAmount",
+                "paramDesc" : "起投金额",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "brightSpot",
+                "paramDesc" : "产品优势",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "capitalType",
+                "paramDesc" : "资本类型",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "createTime",
+                "paramDesc" : "创建时间",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "distributionRegion",
+                "paramDesc" : "发行地区",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "earningDesc",
+                "paramDesc" : "收益描述",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "financeIntroduce",
+                "paramDesc" : "融资方介绍",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "fundType",
+                "paramDesc" : "基金类型:1.本土；2.合资；3.外资；4.其他；",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "hasBuyNum",
+                "paramDesc" : "已经购买该标的次数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "institutionUserId",
+                "paramDesc" : "所属机构id即userid",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "interestRate",
+                "paramDesc" : "公墓利率",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "investmentDeadline",
+                "paramDesc" : "投资期限（月）",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "isDisplay",
+                "paramDesc" : "是否前台显示1位显示0不显示",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "isRateFloating",
+                "paramDesc" : "公墓是否浮动1位浮动0不浮动",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "issuer",
+                "paramDesc" : "发行机构",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "loanStatus",
+                "paramDesc" : "机构操作：100初始化审核中200募集中300结束400已删除",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "loanType",
+                "paramDesc" : "1:公墓，2私募",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "locationSize",
+                "paramDesc" : "置顶功能,值越大，显示越靠前",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "manageRate",
+                "paramDesc" : "管理费率",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "moneyUse",
+                "paramDesc" : "资金用途",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "organizeForm",
+                "paramDesc" : "组织形式",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productDesc",
+                "paramDesc" : "项目说明",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productDescFiles",
+                "paramDesc" : "项目文件名称列表json",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productDirection",
+                "paramDesc" : "产品方向（投资方向）产品方向：1.工商企业；2.金融市场；3.基础设施；4.房地产；5.资金池；6.其他；",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productType",
+                "paramDesc" : "产品类型:1.信托；2.资管；3.其他资产,4私募",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "ratioType",
+                "paramDesc" : "大小配比:1.小额畅打；2.已配出小额；3.严格配比；4.全大额",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "repaySource",
+                "paramDesc" : "还款来源",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "reserveAmount",
+                "paramDesc" : "已预约金额",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "riskAlert",
+                "paramDesc" : "风险提示",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "riskControl",
+                "paramDesc" : "风险控制",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "safeguardWay",
+                "paramDesc" : "公墓;保障方式 私募：（产品亮点）",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "servicingWay",
+                "paramDesc" : "付息方式:1.按月付息；2.按季付息；3.半年付息；4.按年付息；5.到期付息；6.其他",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "title",
+                "paramDesc" : "产品名称",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ]
+}

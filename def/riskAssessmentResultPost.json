@@ -1,23 +1,23 @@
 
 {
-    "serviceName" : "addSolution",
-    "serviceTitle" : "Y增加收藏",
-    "serviceDesc" : "增加收藏",
+    "serviceName" : "riskAssessmentResultPost",
+    "serviceTitle" : "分险评测结果",
+    "serviceDesc" : "",
     "needLogin" : "Y",
     "isLogin" : "N",
     "requestParams" : [
             {
-                "paramName" : "id",
-                "paramDesc" : "收藏的id",
+                "paramName" : "answers",
+                "paramDesc" : "答案json数组，需客户端同意协商定义，获取上一次答案原路返回",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "1"
+                "exampleValue" : "{}"
             }
         ,
             {
-                "paramName" : "type",
-                "paramDesc" : "1:理财师(店铺)2:产品",
+                "paramName" : "score",
+                "paramDesc" : "总分",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -27,12 +27,12 @@
         ],
     "responseParams" : [
             {
-                "paramName" : "id",
-                "paramDesc" : "收藏成功的id",
+                "paramName" : "result",
+                "paramDesc" : "1:保守型2:稳健型3:成熟型4:进取型5:激进型",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "1"
+                "exampleValue" : ""
             }
         
         ]

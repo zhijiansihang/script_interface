@@ -25,8 +25,8 @@
             }
         ,
             {
-                "paramName" : "productType",
-                "paramDesc" : "公墓类型：产品类型：1.信托；2.资管；3.其他资产；必填",
+                "paramName" : "productDirection",
+                "paramDesc" : "（投资方向）产品方向：1.工商企业；2.金融市场；3.基础设施；4.房地产；5.资金池；6.其他； 空位全部",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -34,8 +34,8 @@
             }
         ,
             {
-                "paramName" : "productDirection",
-                "paramDesc" : "（投资方向）产品方向：1.工商企业；2.金融市场；3.基础设施；4.房地产；5.资金池；6.其他； 空位全部",
+                "paramName" : "productType",
+                "paramDesc" : "公墓类型：产品类型：1.信托；2.资管；3.其他资产；必填",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -58,6 +58,15 @@
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
                 "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "sort",
+                "paramDesc" : "0：综合排序   1：按预期收益  2：按投资期限  3：按起投金额",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "0"
             }
         
         ],
@@ -182,6 +191,15 @@
             {
                 "paramName" : "loanType",
                 "paramDesc" : "（1:公墓，2私募）",
+                "paramGroupName" : "loanList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "productDirection",
+                "paramDesc" : "（投资方向）产品方向：1.工商企业；2.金融市场；3.基础设施；4.房地产；5.资金池；6.其他； 空位全部",
                 "paramGroupName" : "loanList",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",

@@ -1,0 +1,21 @@
+
+{
+    "serviceName" : "sessionIdIsOk",
+    "serviceTitle" : "sessionId是否ok",
+    "serviceDesc" : "",
+    "needLogin" : "N",
+    "isLogin" : "N",
+    "requestParams" : [
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "status",
+                "paramDesc" : "1为成功 0 位失败 失败 需要重新登录",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ]
+}

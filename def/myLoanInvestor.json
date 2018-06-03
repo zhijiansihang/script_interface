@@ -1,1 +1,111 @@
-{"serviceName":"myLoanInvestor","serviceTitle":"Y我的预约","serviceDesc":"我的预约记录","needLogin":"Y","isLogin":"N","requestParams":[{"paramName":"currentPage","paramDesc":"第几页","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"isDeal","paramDesc":"1:已处理0:处理中","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"0"},{"paramName":"pageSize","paramDesc":"一页的条数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"}],"responseParams":[{"paramName":"currentPage","paramDesc":"当前页","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"pageCount","paramDesc":"总页数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"pageSize","paramDesc":"每页多少条","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"recordCount","paramDesc":"总记录数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"amount","paramDesc":"预约金额","paramGroupName":"loanInvestorList","paramGroupDesc":"","isEnc":"N","exampleValue":"2017-12-12"},{"paramName":"id","paramDesc":"记录id","paramGroupName":"loanInvestorList","paramGroupDesc":"预约记录list","isEnc":"N","exampleValue":"1"},{"paramName":"title","paramDesc":"标名称","paramGroupName":"loanInvestorList","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}]}
+
+{
+    "serviceName" : "myLoanInvestor",
+    "serviceTitle" : "Y我的预约",
+    "serviceDesc" : "我的预约记录",
+    "needLogin" : "Y",
+    "isLogin" : "N",
+    "requestParams" : [
+            {
+                "paramName" : "currentPage",
+                "paramDesc" : "第几页",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "isDeal",
+                "paramDesc" : "1:已处理0:处理中",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "0"
+            }
+        ,
+            {
+                "paramName" : "pageSize",
+                "paramDesc" : "一页的条数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "currentPage",
+                "paramDesc" : "当前页",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "pageCount",
+                "paramDesc" : "总页数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "pageSize",
+                "paramDesc" : "每页多少条",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "recordCount",
+                "paramDesc" : "总记录数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "amount",
+                "paramDesc" : "预约金额",
+                "paramGroupName" : "loanInvestorList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "2017-12-12"
+            }
+        ,
+            {
+                "paramName" : "id",
+                "paramDesc" : "记录id",
+                "paramGroupName" : "loanInvestorList",
+                "paramGroupDesc" : "预约记录list",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "title",
+                "paramDesc" : "标名称",
+                "paramGroupName" : "loanInvestorList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "createtime",
+                "paramDesc" : "订单创建时间",
+                "paramGroupName" : "loanInvestorList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "2017-01-05 00:00:00"
+            }
+        
+        ]
+}

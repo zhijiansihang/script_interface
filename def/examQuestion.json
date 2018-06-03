@@ -1,0 +1,21 @@
+
+{
+    "serviceName" : "examQuestion",
+    "serviceTitle" : "考试问题",
+    "serviceDesc" : "",
+    "needLogin" : "Y",
+    "isLogin" : "N",
+    "requestParams" : [
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "result",
+                "paramDesc" : "考试的json串",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        
+        ]
+}

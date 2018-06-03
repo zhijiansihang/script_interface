@@ -196,6 +196,15 @@
                 "isEnc" : "N",
                 "exampleValue" : "1"
             }
+        ,
+            {
+                "paramName" : "productDirection",
+                "paramDesc" : "产品方向",
+                "paramGroupName" : "loanList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
         
         ]
 }

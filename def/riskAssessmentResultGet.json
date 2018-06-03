@@ -1,0 +1,30 @@
+
+{
+    "serviceName" : "riskAssessmentResultGet",
+    "serviceTitle" : "获取分险评测结果和答案",
+    "serviceDesc" : "",
+    "needLogin" : "Y",
+    "isLogin" : "N",
+    "requestParams" : [
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "answers",
+                "paramDesc" : "json 字符串",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "{}"
+            }
+        ,
+            {
+                "paramName" : "result",
+                "paramDesc" : "1:保守型2:稳健型3:成熟型4:进取型5:激进型",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ]
+}

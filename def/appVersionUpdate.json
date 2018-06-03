@@ -1,0 +1,174 @@
+
+{
+    "serviceName" : "appVersionUpdate",
+    "serviceTitle" : "检查版本更新",
+    "serviceDesc" : "检查版本更新",
+    "needLogin" : "N",
+    "isLogin" : "N",
+    "requestParams" : [
+            {
+                "paramName" : "module",
+                "paramDesc" : "模块名称",
+                "paramGroupName" : "mvList",
+                "paramGroupDesc" : "模块列表",
+                "isEnc" : "N",
+                "exampleValue" : "fund"
+            }
+        ,
+            {
+                "paramName" : "version",
+                "paramDesc" : "模块版本",
+                "paramGroupName" : "mvList",
+                "paramGroupDesc" : "模块列表",
+                "isEnc" : "N",
+                "exampleValue" : "2.0.0"
+            }
+        
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "content",
+                "paramDesc" : "版本升级内容",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "flag",
+                "paramDesc" : "3为强制升级，2为推荐升级，1为不需要升级，-1提审中",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "reviewing",
+                "paramDesc" : "ios审核：1-非审核状态  -1  -审核状态",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "-1"
+            }
+        ,
+            {
+                "paramName" : "title",
+                "paramDesc" : "版本升级标题",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "updateTime",
+                "paramDesc" : "更新时间",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "url",
+                "paramDesc" : "下载链接",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "versionName",
+                "paramDesc" : "版本号，如1.0.3",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : ""
+            }
+        ,
+            {
+                "paramName" : "currVersion",
+                "paramDesc" : "模块当前版本",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "2.0.1"
+            }
+        ,
+            {
+                "paramName" : "downloadPath",
+                "paramDesc" : "更新文件下载地址",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "https://www.meme2c.com/"
+            }
+        ,
+            {
+                "paramName" : "indexURL",
+                "paramDesc" : "index地址",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "static.meimeitech.com/app/fund/20170811130000/index.html"
+            }
+        ,
+            {
+                "paramName" : "iswhole",
+                "paramDesc" : "0-增量更新  1-全量更新",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "0"
+            }
+        ,
+            {
+                "paramName" : "module",
+                "paramDesc" : "模块名称",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "fund"
+            }
+        ,
+            {
+                "paramName" : "updateContent",
+                "paramDesc" : "更新内容",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "基金模块页面样式修改"
+            }
+        ,
+            {
+                "paramName" : "updateStrategy",
+                "paramDesc" : "更新策略",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "2"
+            }
+        ,
+            {
+                "paramName" : "updateTitle",
+                "paramDesc" : "更新标题",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "基金模块升级"
+            }
+        ,
+            {
+                "paramName" : "zipFileSize",
+                "paramDesc" : "更新文件大小",
+                "paramGroupName" : "updateList",
+                "paramGroupDesc" : "模块更新列表",
+                "isEnc" : "N",
+                "exampleValue" : "30M"
+            }
+        
+        ]
+}

@@ -1,23 +1,23 @@
 
 {
-    "serviceName" : "addSolution",
-    "serviceTitle" : "Y增加收藏",
-    "serviceDesc" : "增加收藏",
+    "serviceName" : "isCollected",
+    "serviceTitle" : "是否收藏",
+    "serviceDesc" : "",
     "needLogin" : "Y",
     "isLogin" : "N",
     "requestParams" : [
             {
                 "paramName" : "id",
-                "paramDesc" : "收藏的id",
+                "paramDesc" : "收藏的编号 标的编号或者理财师编号",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
-                "exampleValue" : "1"
+                "exampleValue" : "1000"
             }
         ,
             {
                 "paramName" : "type",
-                "paramDesc" : "1:理财师(店铺)2:产品",
+                "paramDesc" : "收藏类型 1: 理财师 2：标",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",
@@ -27,8 +27,8 @@
         ],
     "responseParams" : [
             {
-                "paramName" : "id",
-                "paramDesc" : "收藏成功的id",
+                "paramName" : "status",
+                "paramDesc" : "空为收藏，有值为删除ID",
                 "paramGroupName" : "",
                 "paramGroupDesc" : "",
                 "isEnc" : "N",

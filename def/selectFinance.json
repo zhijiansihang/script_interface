@@ -1,1 +1,165 @@
-{"serviceName":"selectFinance","serviceTitle":"Y发现投顾","serviceDesc":"发现投顾","needLogin":"N","isLogin":"N","requestParams":[{"paramName":"currentPage","paramDesc":"第几页","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"order","paramDesc":"0:默认排序1:按产品数量排序2:按预约单数排序3:按关注度排序","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"pageSize","paramDesc":"一页的条数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"type","paramDesc":"0:全部1:机构理财师2:个人理财师","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}],"responseParams":[{"paramName":"currentPage","paramDesc":"当前页","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"pageCount","paramDesc":"总页数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"pageSize","paramDesc":"每页多少条","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"recordCount","paramDesc":"总记录数","paramGroupName":"","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"adoptCount","paramDesc":"总采纳数","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"institutionName","paramDesc":"机构名称","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"loanCount","paramDesc":"关联产品数量","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"1"},{"paramName":"logo","paramDesc":"头像路径","paramGroupName":"financeList","paramGroupDesc":"需求list","isEnc":"N","exampleValue":"1"},{"paramName":"position","paramDesc":"职位","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"10"},{"paramName":"realName","paramDesc":"姓名","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"paul"},{"paramName":"serviceDirection","paramDesc":"服务方向","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"0"},{"paramName":"userId","paramDesc":"理财师id","paramGroupName":"financeList","paramGroupDesc":"理财list","isEnc":"N","exampleValue":"1"},{"paramName":"userOrderCount","paramDesc":"用户预约数","paramGroupName":"financeList","paramGroupDesc":"","isEnc":"N","exampleValue":"1"}]}
+
+{
+    "serviceName" : "selectFinance",
+    "serviceTitle" : "Y发现投顾",
+    "serviceDesc" : "发现投顾",
+    "needLogin" : "N",
+    "isLogin" : "N",
+    "requestParams" : [
+            {
+                "paramName" : "currentPage",
+                "paramDesc" : "第几页",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "order",
+                "paramDesc" : "0:默认排序1:按产品数量排序2:按预约单数排序3:按关注度排序",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "pageSize",
+                "paramDesc" : "一页的条数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "type",
+                "paramDesc" : "0:全部1:机构理财师2:个人理财师",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ],
+    "responseParams" : [
+            {
+                "paramName" : "currentPage",
+                "paramDesc" : "当前页",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "pageCount",
+                "paramDesc" : "总页数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "pageSize",
+                "paramDesc" : "每页多少条",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "recordCount",
+                "paramDesc" : "总记录数",
+                "paramGroupName" : "",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "adoptCount",
+                "paramDesc" : "总采纳数",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "institutionName",
+                "paramDesc" : "机构名称",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "loanCount",
+                "paramDesc" : "关联产品数量",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "logo",
+                "paramDesc" : "头像路径",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "需求list",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "position",
+                "paramDesc" : "职位",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "10"
+            }
+        ,
+            {
+                "paramName" : "realName",
+                "paramDesc" : "姓名",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "paul"
+            }
+        ,
+            {
+                "paramName" : "serviceDirection",
+                "paramDesc" : "服务方向",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "0"
+            }
+        ,
+            {
+                "paramName" : "userId",
+                "paramDesc" : "理财师id",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "理财list",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        ,
+            {
+                "paramName" : "userOrderCount",
+                "paramDesc" : "用户预约数",
+                "paramGroupName" : "financeList",
+                "paramGroupDesc" : "",
+                "isEnc" : "N",
+                "exampleValue" : "1"
+            }
+        
+        ]
+}
